@@ -47,3 +47,109 @@ table {
     border-spacing: 0;
 }
 /* !reset */
+/* CSS from hints file */
+html {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #bbdede;
+}
+h1 {font-size: 40px; font-family: 'Bebas Neue', cursive; text-align: center;}
+h2 {font-size: 30px;font-family: 'Bebas Neue', cursive; text-align: center;}
+h3 {font-size: 25px;font-family: 'Bebas Neue', cursive; text-align: center;}
+h1,h2 {margin: 15px 0px;}
+nav a, nav span {font-size: 20px; font-family: 'Bebas Neue', cursive;}
+menu li{font-size: 20px; font-family: 'Bebas Neue', cursive;}
+#social li {font-size: 20px; font-family: 'Bebas Neue', cursive;}
+footer{font-size: 20px; font-family: 'Bebas Neue', cursive;}
+p, dd, li, nav, input, dt {font-size: 16px;font-family: 'Montserrat', sans-serif; font-weight: 400;}
+dt {font-weight: bold;}
+small{font-size: .75em;}
+a {text-decoration: none; cursor: pointer;}
+
+/* Mobile first */
+
+body {
+    width: 414px;
+    background-color: #f2f2f2;
+    color: #2f2f2f;
+    margin: 0 auto;
+}
+img {height: auto; width: 100%;}
+
+header{
+    background-color:f2f2f2;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+}
+menu li{
+list-style: none;
+}
+menu li a{
+    color:#eb5428;
+    display: flex;
+    flex-flow:column-reverse nowrap;
+    align-items: center;
+    padding: 5px;
+}
+section p {padding: 10px;}
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:10px;
+    width: 220px;
+}
+
+section#ingredients ul {
+    list-style-type: disc;
+    padding: 20px;
+}
+
+section#ingredients ul li {
+    padding: 5px 0px 5px;
+}
+
+section#directions ol {
+    padding: 20px;
+    padding-left: 25px;
+    list-style: decimal;
+}
+
+section#directions ol li {
+    margin-bottom: 20px;
+}
+section#directions ol li:last-child{
+    margin-bottom: 0px;
+}
+
+aside#sides {
+    background-color: #7abfbf;
+    padding: 15px 0px;
+}
+#sides section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+#sides section img {
+    order: 1;
+    grid-row: span 2;
+    width: 65%;
+    padding: 10px;
+    margin: 0 auto;
+}
+#sides section h3 {
+    order: 2;
+    text-align: left;
+}
+#sides section div {
+    order: 3;
+    text-align: left;
+}
+
+#sides section div p {
+    padding: 0px;
+}
+b {font-weight: bold;}
