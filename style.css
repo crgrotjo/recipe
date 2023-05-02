@@ -299,3 +299,14 @@ a#home {
     padding: 10px 0px;
 }
 .star-group svg{stroke:#f2f2f2; fill: #eb5428; }
+
+@media screen and (min-width: 768px) {
+    body{width: 768px;}
+    nav{width: 768px;}
+}
+
+@media screen and (min-width: 1280px) {
+    body{width: 1280px;}
+    nav{width: 1280px;}
+  }
+
